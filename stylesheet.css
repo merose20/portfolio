@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #b09b71;
+  color: #332626;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: transparent;
+  width: auto;
+  height: 55px;
+
+  /* box-shadow: 5px 0px 8px #fff; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 55px;
+  margin-right: 40px;
+
+  /* border: 1px solid green; */
+}
+
+a {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #332626;
+}
+
+a:hover {
+  color: white;
+}
+
+.home,
+.project {
+  width: auto;
+  height: 645px;
+  margin-bottom: 50px;
+  /* border: 1px solid white; */
+}
+
+.details {
+  height: 350px;
+  width: 370px;
+  margin-left: 100px;
+  display: inline-block;
+
+  /* border: 1px solid lightblue; */
+}
+
+.hello {
+  font-family: Alex Brush;
+  font-size: 150px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.intro {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+
+.btn {
+  color: #b09b71;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  /* border: 1px solid white; */
+  border-style: none;
+  border-radius: 13px;
+  background-color: #332626;
+  color: #b09b71;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #b09b71;
+  color: #332626;
+  border: 1px solid #332626;
+}
+
+button:active {
+  background-color: rgb(105, 80, 60);
+  color: white;
+}
+
+.details-2 {
+  display: inline-block;
+  height: 450px;
+  width: 450px;
+  margin-left: 250px;
+  position: relative;
+
+  /* border: 1px solid lightblue; */
+}
+
+.me {
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+
+  top: 50px;
+  left: 45px;
+}
+
+.circle {
+  height: 36vw;
+  width: 36vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+
+.circle-2 {
+  height: 17vw;
+  width: 17vw;
+  border-radius: 100%;
+  background-color: rgb(105, 80, 60);
+  position: absolute;
+
+  top: 300px;
+  right: -90px;
+}
